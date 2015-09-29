@@ -1,0 +1,130 @@
+//Revision: d3713654-1d06-4823-b02a-7a6dc93f8cba
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IOur_Menu Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Our Menu</para>	
+	/// <para>ID: 7bfe3344-ec8b-4e2d-be22-d4bf923955db</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IOur_MenuConstants.TemplateIdString, Cachable=false)]
+	public partial interface IOur_Menu : IGlassBase , global::PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IBase_Page
+	{
+			
+					/// <summary>
+					/// The Sub Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: c603d0b5-366b-4a04-9a90-7421e1bf6a6a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IOur_MenuConstants.Sub_TitleFieldName)]
+					string Sub_Title  {get; set;}
+			
+			
+					/// <summary>
+					/// The Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 7eb64d8d-4016-40b7-a469-a3161d8e045d</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IOur_MenuConstants.TitleFieldName)]
+					string Title  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IOur_MenuConstants{
+
+			public const string TemplateIdString = "7bfe3344-ec8b-4e2d-be22-d4bf923955db";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Our Menu";
+
+		
+			
+			public static readonly ID Sub_TitleFieldId = new ID("c603d0b5-366b-4a04-9a90-7421e1bf6a6a");
+			public const string Sub_TitleFieldName = "Sub Title";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("7eb64d8d-4016-40b7-a469-a3161d8e045d");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Our_Menu
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Our Menu</para>	
+	/// <para>ID: 7bfe3344-ec8b-4e2d-be22-d4bf923955db</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IOur_MenuConstants.TemplateIdString, Cachable=false)] 
+	public partial class Our_Menu  : GlassBase, IOur_Menu 
+	{
+	   
+		
+				/// <summary>
+				/// The Sub Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: c603d0b5-366b-4a04-9a90-7421e1bf6a6a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IOur_MenuConstants.Sub_TitleFieldName)]
+				public virtual string Sub_Title  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 7eb64d8d-4016-40b7-a469-a3161d8e045d</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IOur_MenuConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

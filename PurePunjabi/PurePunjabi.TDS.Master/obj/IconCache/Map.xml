@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/media library" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/system" ItemIcon="/temp/IconCache/People/16x16/workstation1.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/layout/Models" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Home" ItemIcon="/temp/IconCache/Network/16x16/home.png" />
+  <Item ItemPath="/sitecore/layout/Layouts" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/Sample Layout" ItemIcon="/temp/IconCache/Applications/32x32/window.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/Pure Punjabi" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/System" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/System/App Center Sync" ItemIcon="/temp/IconCache/Applications/32x32/gear_refresh.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/System/FXM" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/System/Feed Delivery Layout" ItemIcon="/temp/IconCache/Applications/32x32/window.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/SiteSettings/Site Settings/Navigation" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Navigation/Our Menu/DInner" ItemIcon="/temp/IconCache/Applications/32x32/navigate_right2.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Navigation/Our Menu/Meal" ItemIcon="/temp/IconCache/Applications/32x32/navigate_right2.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/SiteSettings/Site Settings/NavigationList" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/healthbase_indian_cuisine" ItemIcon="/temp/IconCache/~/media/B04A00BCF45D41D0A0990C57D90B16E0.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %281%29" ItemIcon="/sitecore/shell/themes/standard/~/media/21511D8CF20943CD842B4A573278F516.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %282%29" ItemIcon="/sitecore/shell/themes/standard/~/media/B265DBFBF9F64A93A6C120F0B50D3E9E.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %283%29" ItemIcon="/sitecore/shell/themes/standard/~/media/77F59F65776E4FB099860370EC492CDB.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %284%29" ItemIcon="/sitecore/shell/themes/standard/~/media/FB542183F8D14F28AB98BD0AF7C5957E.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %285%29" ItemIcon="/sitecore/shell/themes/standard/~/media/12799344E094455ABE1768ABF2A3FB82.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %286%29" ItemIcon="/sitecore/shell/themes/standard/~/media/BED49BECD43E483794B9CDF22B2983E8.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/media library/Pure Punjabi/Images/images %287%29" ItemIcon="/sitecore/shell/themes/standard/~/media/6AEF3B0210D34BD19C1C477053A29524.ashx?h=16&amp;thn=1&amp;w=16&amp;db=master" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Clients/Bluth" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/AboutUs" ItemIcon="/temp/IconCache/Apps/32x32/Text-Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Base Page" ItemIcon="/temp/IconCache/Applications/32x32/bullet_ball_grey.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Carousel" ItemIcon="/temp/IconCache/Apps/32x32/Carousel.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Client" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/ClientImageComponent" ItemIcon="/temp/IconCache/Office/32x32/camera.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/ContactUs" ItemIcon="/temp/IconCache/Business/32x32/mobilephone1.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Data Folder" ItemIcon="/temp/IconCache/network/16x16/server.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/HomePage" ItemIcon="/temp/IconCache/Network/16x16/home.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu" ItemIcon="/temp/IconCache/office/32x32/document_orientation_portrait.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/MenuItemListComponent" ItemIcon="/temp/IconCache/office/32x32/document_orientation_portrait.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Navigation" ItemIcon="/temp/IconCache/Applications/32x32/navigate_right2.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Our Clients" ItemIcon="/temp/IconCache/office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Our Menu/Our Menu Page Information" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu/Menu Information/Menu Image" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu/Menu Information/Menu Name" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu/Menu Information/Menu Content" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu/Menu Information/Menu Time" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Our Menu/Our Menu Page Information/Title" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Pure Punjabi/Content/AboutUs" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Pure Punjabi/Content/Carousel" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Pure Punjabi/Content/ContactUs" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Pure Punjabi/Content/Our Clients" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Pure Punjabi/PageComponents/ClientImageComponent" ItemIcon="/temp/IconCache/Software/16x16/element.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/AboutUs" ItemIcon="/temp/IconCache/Apps/32x32/Text-Document.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/ContactUs" ItemIcon="/temp/IconCache/Business/32x32/mobilephone1.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Carousel" ItemIcon="/temp/IconCache/Apps/32x32/Carousel.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Menu List/Fixed Thali" ItemIcon="/temp/IconCache/office/32x32/document_orientation_portrait.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Menu List/Parathas" ItemIcon="/temp/IconCache/office/32x32/document_orientation_portrait.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Page Components/ClientList" ItemIcon="/temp/IconCache/Office/32x32/camera.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi" ItemIcon="/temp/IconCache/Network/16x16/home.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data" ItemIcon="/temp/IconCache/network/16x16/server.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/OurClients" ItemIcon="/temp/IconCache/office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/OurMenu" ItemIcon="/temp/IconCache/Office/32x32/document_orientation_portrait.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/SiteSettings" ItemIcon="/temp/IconCache/Applications/16x16/gear.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Menu List" ItemIcon="/temp/IconCache/network/16x16/server.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Navigation" ItemIcon="/temp/IconCache/network/16x16/server.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Page Components" ItemIcon="/temp/IconCache/network/16x16/server.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Our Menu" ItemIcon="/temp/IconCache/Office/32x32/document_orientation_portrait.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/SiteSettings" ItemIcon="/temp/IconCache/Applications/16x16/gear.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/ClientImageComponent/__Standard Values" ItemIcon="/temp/IconCache/Office/32x32/camera.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/ClientImageComponent/Image Component Information" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/ClientImageComponent/Image Component Information/Our Clients" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu/Menu Information" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/Menu/Menu Information/Price" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List" ItemIcon="/temp/IconCache/network/16x16/server.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List/Bluth" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List/Evian" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List/HP" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List/Intel" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List/Sky" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/content/PurePunjabi/Data/Client List/Vodafone" ItemIcon="/temp/IconCache/Office/32x32/businessperson.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/MenuItemListComponent/Menu List" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pure Punjabi/MenuItemListComponent/Menu List/Our Menus" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+</ItemIconCache>

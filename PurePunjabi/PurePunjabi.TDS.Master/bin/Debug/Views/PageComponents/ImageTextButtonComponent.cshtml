@@ -1,0 +1,31 @@
+﻿@using Sitecore.Mvc;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IMenuItemListComponent>
+@using PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi;
+<div class="row">
+
+    
+        @foreach (Menu item in @Model.Our_Menus)
+        {
+            <div class="col-sm-6 col-md-4">
+
+                <div class="thumbnail">
+                    @RenderImage(item, x => x.Menu_Image, new { @alt = "Menu Image" })
+                </div>
+                <div class="caption">
+                    <h3>@Editable(item, x => x.Menu_Name)</h3>
+                    <p>
+                        @Editable(item, x => x.Price)
+
+                    </p>
+                    <p>
+                        <button type="button" class="btn btn-success" title="@item.Menu_Name" data-container="body" data-toggle="popover" data-placement="bottom" data-content="@item.Menu_Content">
+                            @Editable(item, x => x.Menu_Time)
+                        </button>
+                    </p>
+                </div>
+            </div>
+
+        }
+    
+
+</div>

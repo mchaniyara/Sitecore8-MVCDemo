@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {198B7066-F9AD-4F59-92B2-D22E2130B655}
+database: master
+path: /sitecore/layout/Renderings/Pure Punjabi/Footer/Footer
+parent: {A44AF745-F040-4096-83C1-9D3B33EDEE34}
+name: Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 27
+
+/Views/Footer/Footer.cshtml
+----field----
+field: {F4069D71-74D7-4422-941D-54B517CF3001}
+name: Placeholder
+key: placeholder
+content-length: 6
+
+footer
+----field----
+field: {2E51DF70-D3E4-458C-B03A-95C734DD39E7}
+name: Data source
+key: data source
+content-length: 38
+
+{07DF032F-2D13-408E-9ABD-DC0B1E0814E5}
+----version----
+language: en
+version: 1
+revision: 24c18d91-42f1-4d68-b101-9caa7e2b2e92
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150918T051203Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24c18d91-42f1-4d68-b101-9caa7e2b2e92
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150918T052853:635781509336438524Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {07DF032F-2D13-408E-9ABD-DC0B1E0814E5}
+database: master
+path: /sitecore/content/PurePunjabi/SiteSettings
+parent: {CC733FC8-B91B-477C-84AE-F342CA3B529C}
+name: SiteSettings
+master: {00000000-0000-0000-0000-000000000000}
+template: {858936E0-963A-437E-A1D7-63128D9DF45A}
+templatekey: SiteSettings
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: en
+version: 1
+revision: fe1da326-a2f2-4bde-ac45-4be4df2d581d
+
+----field----
+field: {D330C985-97C9-4E8C-877B-5B756678F8E9}
+name: HomePage Title
+key: homepage title
+content-length: 12
+
+Pure Punjabi
+----field----
+field: {77B29878-9986-48F3-9563-52D166DFF314}
+name: NavigationLists
+key: navigationlists
+content-length: 155
+
+{EA6C5D62-1E4E-47B5-BF2D-ECE1BC01A855}|{D9B383B0-5F94-4D48-BD80-7813D45F7B17}|{3A52805C-70CD-47CE-B27C-EC6165A777A3}|{0424DCFE-9759-4914-949D-757227ED362A}
+----field----
+field: {38B3EE2D-EC47-44EE-A7EF-8F84CAF52E5F}
+name: HomePage Link
+key: homepage link
+content-length: 137
+
+<link text="" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{CC733FC8-B91B-477C-84AE-F342CA3B529C}" />
+----field----
+field: {3A3C99DE-0945-4C22-B60A-E106716B1D9F}
+name: Copyright
+key: copyright
+content-length: 34
+
+Copyright 2015 All rights reserved
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150917T101125Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fe1da326-a2f2-4bde-ac45-4be4df2d581d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150919T115007:635782602076153079Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

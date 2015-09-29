@@ -1,0 +1,102 @@
+//Revision: 07d5146c-cc23-4832-8e6a-6d89bad95622
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IClientImageComponent Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/ClientImageComponent</para>	
+	/// <para>ID: 776b6643-f965-4d84-97e4-817e18f5e481</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IClientImageComponentConstants.TemplateIdString, Cachable=false)]
+	public partial interface IClientImageComponent : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Our Clients field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: ee617bed-5b04-4a5c-8305-7fda7f90ea0e</para>
+					/// <para>Custom Data: generic=Client</para>
+					/// </summary>
+					[SitecoreField(IClientImageComponentConstants.Our_ClientsFieldName)]
+					IEnumerable<Client> Our_Clients  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IClientImageComponentConstants{
+
+			public const string TemplateIdString = "776b6643-f965-4d84-97e4-817e18f5e481";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "ClientImageComponent";
+
+		
+			
+			public static readonly ID Our_ClientsFieldId = new ID("ee617bed-5b04-4a5c-8305-7fda7f90ea0e");
+			public const string Our_ClientsFieldName = "Our Clients";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// ClientImageComponent
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/ClientImageComponent</para>	
+	/// <para>ID: 776b6643-f965-4d84-97e4-817e18f5e481</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IClientImageComponentConstants.TemplateIdString, Cachable=false)] 
+	public partial class ClientImageComponent  : GlassBase, IClientImageComponent 
+	{
+	   
+		
+				/// <summary>
+				/// The Our Clients field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: ee617bed-5b04-4a5c-8305-7fda7f90ea0e</para>
+				/// <para>Custom Data: generic=Client</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IClientImageComponentConstants.Our_ClientsFieldName)]
+				public virtual IEnumerable<Client> Our_Clients  {get; set;}
+					
+			
+	}
+
+}
+

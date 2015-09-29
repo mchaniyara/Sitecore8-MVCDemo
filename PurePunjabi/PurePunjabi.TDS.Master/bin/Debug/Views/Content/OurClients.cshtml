@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IOur_Clients>
+<div class="container-fluid">
+    <h1>@Editable(x => x.TItle)</h1>
+    @*<p>Resize the browser window to see the effect.</p>*@
+    <div class="row">
+        <div class="col-sm-12" style="background-color:lavender;">
+            <p>@Editable(x => x.Description)</p>
+            @Html.Sitecore().Placeholder("pagecomponent")
+        </div>
+        
+    </div>
+    
+</div>

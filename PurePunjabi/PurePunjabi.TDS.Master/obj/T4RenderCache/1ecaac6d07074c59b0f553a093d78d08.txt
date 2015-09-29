@@ -1,0 +1,158 @@
+//Revision: 69d2c599-2f7f-4277-9a33-6d7dd1cdecf6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// ICarousel Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Carousel</para>	
+	/// <para>ID: 1ecaac6d-0707-4c59-b0f5-53a093d78d08</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICarouselConstants.TemplateIdString, Cachable=false)]
+	public partial interface ICarousel : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Image1 field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 0430c503-f55c-4662-9325-fe6237eb59bd</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICarouselConstants.Image1FieldName)]
+					Image Image1  {get; set;}
+			
+			
+					/// <summary>
+					/// The Image2 field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 642c8f26-2e5c-47a5-9d8b-6e138d65aa51</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICarouselConstants.Image2FieldName)]
+					Image Image2  {get; set;}
+			
+			
+					/// <summary>
+					/// The Image3 field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 99dc5bfb-96b7-4ad3-b137-1562c66601d5</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICarouselConstants.Image3FieldName)]
+					Image Image3  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ICarouselConstants{
+
+			public const string TemplateIdString = "1ecaac6d-0707-4c59-b0f5-53a093d78d08";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Carousel";
+
+		
+			
+			public static readonly ID Image1FieldId = new ID("0430c503-f55c-4662-9325-fe6237eb59bd");
+			public const string Image1FieldName = "Image1";
+			
+		
+			
+			public static readonly ID Image2FieldId = new ID("642c8f26-2e5c-47a5-9d8b-6e138d65aa51");
+			public const string Image2FieldName = "Image2";
+			
+		
+			
+			public static readonly ID Image3FieldId = new ID("99dc5bfb-96b7-4ad3-b137-1562c66601d5");
+			public const string Image3FieldName = "Image3";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Carousel
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Carousel</para>	
+	/// <para>ID: 1ecaac6d-0707-4c59-b0f5-53a093d78d08</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICarouselConstants.TemplateIdString, Cachable=false)] 
+	public partial class Carousel  : GlassBase, ICarousel 
+	{
+	   
+		
+				/// <summary>
+				/// The Image1 field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 0430c503-f55c-4662-9325-fe6237eb59bd</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICarouselConstants.Image1FieldName)]
+				public virtual Image Image1  {get; set;}
+					
+		
+				/// <summary>
+				/// The Image2 field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 642c8f26-2e5c-47a5-9d8b-6e138d65aa51</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICarouselConstants.Image2FieldName)]
+				public virtual Image Image2  {get; set;}
+					
+		
+				/// <summary>
+				/// The Image3 field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 99dc5bfb-96b7-4ad3-b137-1562c66601d5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICarouselConstants.Image3FieldName)]
+				public virtual Image Image3  {get; set;}
+					
+			
+	}
+
+}
+

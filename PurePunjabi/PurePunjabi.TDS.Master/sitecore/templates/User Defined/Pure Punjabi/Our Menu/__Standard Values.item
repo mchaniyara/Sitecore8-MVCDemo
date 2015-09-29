@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {B309E8B3-E595-4EA7-8D1F-58E974B0BD42}
+database: master
+path: /sitecore/templates/User Defined/Pure Punjabi/Our Menu/__Standard Values
+parent: {7BFE3344-EC8B-4E2D-BE22-D4BF923955DB}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7BFE3344-EC8B-4E2D-BE22-D4BF923955DB}
+templatekey: Our Menu
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 579
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{FE61F9C5-B20B-4677-B44D-B191F15DA437}"><r id="{B6A0278C-F237-4B05-A495-F2E78EFDD211}" ph="header" uid="{431EE080-9F9B-496F-AF82-D91E18F477BB}" /><r id="{EA9EDABD-6031-4757-AE79-B19B350B9269}" ph="content" uid="{9DF27FA1-B3AD-478C-BC0F-81D91A24E6C4}" /><r id="{A2F7FC32-BBAD-47E8-B6C5-64BB43125EFC}" ph="pagecomponent" uid="{32E454BA-6541-44F2-95DD-E463E695DA31}" /><r id="{198B7066-F9AD-4F59-92B2-D22E2130B655}" ph="footer" uid="{8F426E16-47C5-4E45-85E6-547FCFD09DC1}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 6d011fee-2c4c-4055-91d2-ee4869d28307
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 506
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{9DF27FA1-B3AD-478C-BC0F-81D91A24E6C4}" p:before="r[@uid='{32E454BA-6541-44F2-95DD-E463E695DA31}']" s:id="{EA9EDABD-6031-4757-AE79-B19B350B9269}" s:ph="content" /><r uid="{32E454BA-6541-44F2-95DD-E463E695DA31}" p:before="r[@uid='{8F426E16-47C5-4E45-85E6-547FCFD09DC1}']" s:id="{A2F7FC32-BBAD-47E8-B6C5-64BB43125EFC}" s:ph="pagecomponent" /><r uid="{8F426E16-47C5-4E45-85E6-547FCFD09DC1}" p:before="*[1=2]" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150920T085100Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6d011fee-2c4c-4055-91d2-ee4869d28307
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150920T090118:635783364782501683Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

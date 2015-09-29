@@ -1,0 +1,74 @@
+//Revision: 61567a8f-1021-43ce-b1b6-2a66669fb246
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IBase_Page Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Base Page</para>	
+	/// <para>ID: cd731466-f084-4c70-8fef-80d6d85c2a18</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IBase_PageConstants.TemplateIdString, Cachable=false)]
+	public partial interface IBase_Page : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IBase_PageConstants{
+
+			public const string TemplateIdString = "cd731466-f084-4c70-8fef-80d6d85c2a18";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Base Page";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// Base_Page
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Base Page</para>	
+	/// <para>ID: cd731466-f084-4c70-8fef-80d6d85c2a18</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IBase_PageConstants.TemplateIdString, Cachable=false)] 
+	public partial class Base_Page  : GlassBase, IBase_Page 
+	{
+	   
+			
+	}
+
+}
+

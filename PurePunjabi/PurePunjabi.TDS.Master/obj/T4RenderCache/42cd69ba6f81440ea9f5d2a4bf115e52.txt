@@ -1,0 +1,186 @@
+//Revision: 53908391-c815-41cc-9dbe-bb3e079bc1fc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IContactUs Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/ContactUs</para>	
+	/// <para>ID: 42cd69ba-6f81-440e-a9f5-d2a4bf115e52</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IContactUsConstants.TemplateIdString, Cachable=false)]
+	public partial interface IContactUs : IGlassBase , global::PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IBase_Page
+	{
+			
+					/// <summary>
+					/// The Abstract field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: fdd379b2-7075-40ac-abf1-e54fdb9ae183</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IContactUsConstants.AbstractFieldName)]
+					string Abstract  {get; set;}
+			
+			
+					/// <summary>
+					/// The Email-Id field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: a10929f6-9134-4690-8dfd-f1707a40dfa9</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IContactUsConstants.Email_IdFieldName)]
+					Link Email_Id  {get; set;}
+			
+			
+					/// <summary>
+					/// The Mobile No field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 8ad34cd6-a8bf-487c-add7-fd8931fb442c</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IContactUsConstants.Mobile_NoFieldName)]
+					string Mobile_No  {get; set;}
+			
+			
+					/// <summary>
+					/// The Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: a3cf7dc4-6cf5-4861-81cf-1c288d262fa5</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IContactUsConstants.TitleFieldName)]
+					string Title  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IContactUsConstants{
+
+			public const string TemplateIdString = "42cd69ba-6f81-440e-a9f5-d2a4bf115e52";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "ContactUs";
+
+		
+			
+			public static readonly ID AbstractFieldId = new ID("fdd379b2-7075-40ac-abf1-e54fdb9ae183");
+			public const string AbstractFieldName = "Abstract";
+			
+		
+			
+			public static readonly ID Email_IdFieldId = new ID("a10929f6-9134-4690-8dfd-f1707a40dfa9");
+			public const string Email_IdFieldName = "Email-Id";
+			
+		
+			
+			public static readonly ID Mobile_NoFieldId = new ID("8ad34cd6-a8bf-487c-add7-fd8931fb442c");
+			public const string Mobile_NoFieldName = "Mobile No";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("a3cf7dc4-6cf5-4861-81cf-1c288d262fa5");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// ContactUs
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/ContactUs</para>	
+	/// <para>ID: 42cd69ba-6f81-440e-a9f5-d2a4bf115e52</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IContactUsConstants.TemplateIdString, Cachable=false)] 
+	public partial class ContactUs  : GlassBase, IContactUs 
+	{
+	   
+		
+				/// <summary>
+				/// The Abstract field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: fdd379b2-7075-40ac-abf1-e54fdb9ae183</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IContactUsConstants.AbstractFieldName)]
+				public virtual string Abstract  {get; set;}
+					
+		
+				/// <summary>
+				/// The Email-Id field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: a10929f6-9134-4690-8dfd-f1707a40dfa9</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IContactUsConstants.Email_IdFieldName)]
+				public virtual Link Email_Id  {get; set;}
+					
+		
+				/// <summary>
+				/// The Mobile No field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 8ad34cd6-a8bf-487c-add7-fd8931fb442c</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IContactUsConstants.Mobile_NoFieldName)]
+				public virtual string Mobile_No  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: a3cf7dc4-6cf5-4861-81cf-1c288d262fa5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IContactUsConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

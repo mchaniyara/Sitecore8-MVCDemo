@@ -1,0 +1,102 @@
+//Revision: 07241569-437b-490a-9151-3dc214d20e66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IClient Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Client</para>	
+	/// <para>ID: 7ae37858-f294-4ea2-9ee5-428377011f57</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IClientConstants.TemplateIdString, Cachable=false)]
+	public partial interface IClient : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Client Image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 897ee17c-c11e-4046-8f28-a96103f201a9</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IClientConstants.Client_ImageFieldName)]
+					Image Client_Image  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IClientConstants{
+
+			public const string TemplateIdString = "7ae37858-f294-4ea2-9ee5-428377011f57";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Client";
+
+		
+			
+			public static readonly ID Client_ImageFieldId = new ID("897ee17c-c11e-4046-8f28-a96103f201a9");
+			public const string Client_ImageFieldName = "Client Image";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Client
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Client</para>	
+	/// <para>ID: 7ae37858-f294-4ea2-9ee5-428377011f57</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IClientConstants.TemplateIdString, Cachable=false)] 
+	public partial class Client  : GlassBase, IClient 
+	{
+	   
+		
+				/// <summary>
+				/// The Client Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 897ee17c-c11e-4046-8f28-a96103f201a9</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IClientConstants.Client_ImageFieldName)]
+				public virtual Image Client_Image  {get; set;}
+					
+			
+	}
+
+}
+

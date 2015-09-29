@@ -1,0 +1,102 @@
+//Revision: 7db87b0a-9300-4206-aa5f-2243b8b02365
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IMenuItemListComponent Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/MenuItemListComponent</para>	
+	/// <para>ID: 88f5b7e1-796a-41e2-8d15-4b5666d7e751</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMenuItemListComponentConstants.TemplateIdString, Cachable=false)]
+	public partial interface IMenuItemListComponent : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Our Menus field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: 0a59f065-a839-41d8-9da9-278d6de1cf0f</para>
+					/// <para>Custom Data: generic=Menu</para>
+					/// </summary>
+					[SitecoreField(IMenuItemListComponentConstants.Our_MenusFieldName)]
+					IEnumerable<Menu> Our_Menus  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IMenuItemListComponentConstants{
+
+			public const string TemplateIdString = "88f5b7e1-796a-41e2-8d15-4b5666d7e751";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "MenuItemListComponent";
+
+		
+			
+			public static readonly ID Our_MenusFieldId = new ID("0a59f065-a839-41d8-9da9-278d6de1cf0f");
+			public const string Our_MenusFieldName = "Our Menus";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// MenuItemListComponent
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/MenuItemListComponent</para>	
+	/// <para>ID: 88f5b7e1-796a-41e2-8d15-4b5666d7e751</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMenuItemListComponentConstants.TemplateIdString, Cachable=false)] 
+	public partial class MenuItemListComponent  : GlassBase, IMenuItemListComponent 
+	{
+	   
+		
+				/// <summary>
+				/// The Our Menus field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: 0a59f065-a839-41d8-9da9-278d6de1cf0f</para>
+				/// <para>Custom Data: generic=Menu</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMenuItemListComponentConstants.Our_MenusFieldName)]
+				public virtual IEnumerable<Menu> Our_Menus  {get; set;}
+					
+			
+	}
+
+}
+

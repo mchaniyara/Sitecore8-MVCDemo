@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {99EA1720-8391-43C9-8109-14C39B6BCFF5}
+database: master
+path: /sitecore/content/PurePunjabi/ContactUs
+parent: {CC733FC8-B91B-477C-84AE-F342CA3B529C}
+name: ContactUs
+master: {00000000-0000-0000-0000-000000000000}
+template: {42CD69BA-6F81-440E-A9F5-D2A4BF115E52}
+templatekey: ContactUs
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: edd4d091-8eaa-472f-9d25-aa6559650652
+
+----field----
+field: {A3CF7DC4-6CF5-4861-81CF-1C288D262FA5}
+name: Title
+key: title
+content-length: 10
+
+Contact Us
+----field----
+field: {8AD34CD6-A8BF-487C-ADD7-FD8931FB442C}
+name: Mobile No
+key: mobile no
+content-length: 10
+
+9712720223
+----field----
+field: {A10929F6-9134-4690-8DFD-F1707A40DFA9}
+name: Email-Id
+key: email-id
+content-length: 124
+
+<link text='purepunjabipreparation' linktype='mailto' style='' url='mailto:purepunjabipreparation_p3@gmail.com'  title='' />
+----field----
+field: {FDD379B2-7075-40AC-ABF1-E54FDB9AE183}
+name: Abstract
+key: abstract
+content-length: 230
+
+Please take a moment to tell us what you think about our website, our services, our organization, or anything else that comes to your mind. We welcome all of your comments and suggestions that will help us serve you better.<br />
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150918T092517Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+edd4d091-8eaa-472f-9d25-aa6559650652
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150919T093931:635782523717638753Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

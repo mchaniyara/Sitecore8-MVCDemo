@@ -1,0 +1,130 @@
+//Revision: bbc8def4-ac46-42e3-b94e-9b212e8071ed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IAboutUs Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/AboutUs</para>	
+	/// <para>ID: 92bf9bed-9e20-4e28-8efc-8a723c381a11</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IAboutUsConstants.TemplateIdString, Cachable=false)]
+	public partial interface IAboutUs : IGlassBase , global::PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IBase_Page
+	{
+			
+					/// <summary>
+					/// The Body field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: c7bd6a9f-d1b4-4935-9190-b5f8a6775629</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IAboutUsConstants.BodyFieldName)]
+					string Body  {get; set;}
+			
+			
+					/// <summary>
+					/// The Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 3ba63f51-f49e-4b03-8514-f9bab3927c63</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IAboutUsConstants.TitleFieldName)]
+					string Title  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IAboutUsConstants{
+
+			public const string TemplateIdString = "92bf9bed-9e20-4e28-8efc-8a723c381a11";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "AboutUs";
+
+		
+			
+			public static readonly ID BodyFieldId = new ID("c7bd6a9f-d1b4-4935-9190-b5f8a6775629");
+			public const string BodyFieldName = "Body";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("3ba63f51-f49e-4b03-8514-f9bab3927c63");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// AboutUs
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/AboutUs</para>	
+	/// <para>ID: 92bf9bed-9e20-4e28-8efc-8a723c381a11</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IAboutUsConstants.TemplateIdString, Cachable=false)] 
+	public partial class AboutUs  : GlassBase, IAboutUs 
+	{
+	   
+		
+				/// <summary>
+				/// The Body field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: c7bd6a9f-d1b4-4935-9190-b5f8a6775629</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IAboutUsConstants.BodyFieldName)]
+				public virtual string Body  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 3ba63f51-f49e-4b03-8514-f9bab3927c63</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IAboutUsConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

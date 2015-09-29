@@ -1,0 +1,74 @@
+//Revision: ef690a9d-dc6a-4f89-8d1c-0db3744e741a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IData_Folder Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Data Folder</para>	
+	/// <para>ID: 6ce0278f-8351-4416-a472-544a50ece3d2</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IData_FolderConstants.TemplateIdString, Cachable=false)]
+	public partial interface IData_Folder : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IData_FolderConstants{
+
+			public const string TemplateIdString = "6ce0278f-8351-4416-a472-544a50ece3d2";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Data Folder";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// Data_Folder
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Data Folder</para>	
+	/// <para>ID: 6ce0278f-8351-4416-a472-544a50ece3d2</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IData_FolderConstants.TemplateIdString, Cachable=false)] 
+	public partial class Data_Folder  : GlassBase, IData_Folder 
+	{
+	   
+			
+	}
+
+}
+

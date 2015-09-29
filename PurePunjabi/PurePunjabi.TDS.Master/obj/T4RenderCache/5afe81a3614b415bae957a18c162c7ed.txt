@@ -1,0 +1,214 @@
+//Revision: 1464c7c2-095c-4b2c-b0b8-3b9c1cbb34af
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// IMenu Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Menu</para>	
+	/// <para>ID: 5afe81a3-614b-415b-ae95-7a18c162c7ed</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMenuConstants.TemplateIdString, Cachable=false)]
+	public partial interface IMenu : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Menu Content field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: d28ffab8-c688-4ec7-a2f6-2b5b488038b4</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IMenuConstants.Menu_ContentFieldName)]
+					string Menu_Content  {get; set;}
+			
+			
+					/// <summary>
+					/// The Menu Image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 412e50a7-36ac-4866-b3b3-8d34207737b6</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IMenuConstants.Menu_ImageFieldName)]
+					Image Menu_Image  {get; set;}
+			
+			
+					/// <summary>
+					/// The Menu Name field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 126a4b27-9601-4e0a-914d-da84bb4a32e4</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IMenuConstants.Menu_NameFieldName)]
+					string Menu_Name  {get; set;}
+			
+			
+					/// <summary>
+					/// The Menu Time field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: b00c8184-0df6-4b81-aaf9-95b20a24e328</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IMenuConstants.Menu_TimeFieldName)]
+					string Menu_Time  {get; set;}
+			
+			
+					/// <summary>
+					/// The Price field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 601e1873-04c4-4b26-8b15-4db99a4a442a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IMenuConstants.PriceFieldName)]
+					string Price  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IMenuConstants{
+
+			public const string TemplateIdString = "5afe81a3-614b-415b-ae95-7a18c162c7ed";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Menu";
+
+		
+			
+			public static readonly ID Menu_ContentFieldId = new ID("d28ffab8-c688-4ec7-a2f6-2b5b488038b4");
+			public const string Menu_ContentFieldName = "Menu Content";
+			
+		
+			
+			public static readonly ID Menu_ImageFieldId = new ID("412e50a7-36ac-4866-b3b3-8d34207737b6");
+			public const string Menu_ImageFieldName = "Menu Image";
+			
+		
+			
+			public static readonly ID Menu_NameFieldId = new ID("126a4b27-9601-4e0a-914d-da84bb4a32e4");
+			public const string Menu_NameFieldName = "Menu Name";
+			
+		
+			
+			public static readonly ID Menu_TimeFieldId = new ID("b00c8184-0df6-4b81-aaf9-95b20a24e328");
+			public const string Menu_TimeFieldName = "Menu Time";
+			
+		
+			
+			public static readonly ID PriceFieldId = new ID("601e1873-04c4-4b26-8b15-4db99a4a442a");
+			public const string PriceFieldName = "Price";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Menu
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Menu</para>	
+	/// <para>ID: 5afe81a3-614b-415b-ae95-7a18c162c7ed</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMenuConstants.TemplateIdString, Cachable=false)] 
+	public partial class Menu  : GlassBase, IMenu 
+	{
+	   
+		
+				/// <summary>
+				/// The Menu Content field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: d28ffab8-c688-4ec7-a2f6-2b5b488038b4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMenuConstants.Menu_ContentFieldName)]
+				public virtual string Menu_Content  {get; set;}
+					
+		
+				/// <summary>
+				/// The Menu Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 412e50a7-36ac-4866-b3b3-8d34207737b6</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMenuConstants.Menu_ImageFieldName)]
+				public virtual Image Menu_Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Menu Name field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 126a4b27-9601-4e0a-914d-da84bb4a32e4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMenuConstants.Menu_NameFieldName)]
+				public virtual string Menu_Name  {get; set;}
+					
+		
+				/// <summary>
+				/// The Menu Time field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: b00c8184-0df6-4b81-aaf9-95b20a24e328</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMenuConstants.Menu_TimeFieldName)]
+				public virtual string Menu_Time  {get; set;}
+					
+		
+				/// <summary>
+				/// The Price field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 601e1873-04c4-4b26-8b15-4db99a4a442a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMenuConstants.PriceFieldName)]
+				public virtual string Price  {get; set;}
+					
+			
+	}
+
+}
+

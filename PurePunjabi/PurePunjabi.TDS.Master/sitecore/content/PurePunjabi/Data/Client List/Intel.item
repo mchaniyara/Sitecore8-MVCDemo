@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {7D65AFCD-F9A0-4711-A404-9E9A97060F09}
+database: master
+path: /sitecore/content/PurePunjabi/Data/Client List/Intel
+parent: {A97D4905-05C7-4975-97A7-8E70376E19DF}
+name: Intel
+master: {00000000-0000-0000-0000-000000000000}
+template: {7AE37858-F294-4EA2-9EE5-428377011F57}
+templatekey: Client
+
+----version----
+language: en
+version: 1
+revision: c7cc3b48-62d2-4d57-9326-96f6735b661c
+
+----field----
+field: {897EE17C-C11E-4046-8F28-A96103F201A9}
+name: Client Image
+key: client image
+content-length: 58
+
+<image mediaid="{21511D8C-F209-43CD-842B-4A573278F516}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150918T134039Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c7cc3b48-62d2-4d57-9326-96f6735b661c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150919T094625:635782527857695943Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

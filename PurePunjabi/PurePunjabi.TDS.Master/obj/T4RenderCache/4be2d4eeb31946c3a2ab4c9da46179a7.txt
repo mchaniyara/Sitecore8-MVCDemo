@@ -1,0 +1,130 @@
+//Revision: e735e890-2771-4c30-903e-9abb650ffd77
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// INavigation Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Navigation</para>	
+	/// <para>ID: 4be2d4ee-b319-46c3-a2ab-4c9da46179a7</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=INavigationConstants.TemplateIdString, Cachable=false)]
+	public partial interface INavigation : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Link field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: ecb398df-41f0-4353-aed7-973bfcce7a05</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(INavigationConstants.LinkFieldName)]
+					Link Link  {get; set;}
+			
+			
+					/// <summary>
+					/// The Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 6b1be471-2e8b-485e-8f10-84d709e101a3</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(INavigationConstants.TitleFieldName)]
+					string Title  {get; set;}
+			
+			
+	}
+
+
+	public static partial class INavigationConstants{
+
+			public const string TemplateIdString = "4be2d4ee-b319-46c3-a2ab-4c9da46179a7";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Navigation";
+
+		
+			
+			public static readonly ID LinkFieldId = new ID("ecb398df-41f0-4353-aed7-973bfcce7a05");
+			public const string LinkFieldName = "Link";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("6b1be471-2e8b-485e-8f10-84d709e101a3");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Navigation
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/Navigation</para>	
+	/// <para>ID: 4be2d4ee-b319-46c3-a2ab-4c9da46179a7</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=INavigationConstants.TemplateIdString, Cachable=false)] 
+	public partial class Navigation  : GlassBase, INavigation 
+	{
+	   
+		
+				/// <summary>
+				/// The Link field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: ecb398df-41f0-4353-aed7-973bfcce7a05</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(INavigationConstants.LinkFieldName)]
+				public virtual Link Link  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 6b1be471-2e8b-485e-8f10-84d709e101a3</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(INavigationConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {5A432148-942A-429F-9FAF-3C33D36A7B3C}
+database: master
+path: /sitecore/content/PurePunjabi/Data/Menu List/Fixed Thali
+parent: {9CF29321-AA44-4513-B89E-2003C6DAB3E9}
+name: Fixed Thali
+master: {00000000-0000-0000-0000-000000000000}
+template: {5AFE81A3-614B-415B-AE95-7A18C162C7ED}
+templatekey: Menu
+
+----version----
+language: en
+version: 1
+revision: 5af89c88-91df-4874-9809-072d6e978028
+
+----field----
+field: {412E50A7-36AC-4866-B3B3-8D34207737B6}
+name: Menu Image
+key: menu image
+content-length: 58
+
+<image mediaid="{E0B30869-DAA2-4603-8274-46089405A69E}" />
+----field----
+field: {126A4B27-9601-4E0A-914D-DA84BB4A32E4}
+name: Menu Name
+key: menu name
+content-length: 11
+
+Fixed Thali
+----field----
+field: {B00C8184-0DF6-4B81-AAF9-95B20A24E328}
+name: Menu Time
+key: menu time
+content-length: 15
+
+Meal and Dinner
+----field----
+field: {D28FFAB8-C688-4EC7-A2F6-2B5B488038B4}
+name: Menu Content
+key: menu content
+content-length: 47
+
+4-Roti , 1-Sabji , Daal , Rice , Salad , Rayata
+----field----
+field: {601E1873-04C4-4B26-8B15-4DB99A4A442A}
+name: Price
+key: price
+content-length: 2
+
+80
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150920T100906Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5af89c88-91df-4874-9809-072d6e978028
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150920T101650:635783410100729131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

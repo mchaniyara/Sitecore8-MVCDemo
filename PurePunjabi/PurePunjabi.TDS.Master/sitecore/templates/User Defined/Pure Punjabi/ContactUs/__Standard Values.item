@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {05D08693-D97A-4002-8B64-2B560082FF4B}
+database: master
+path: /sitecore/templates/User Defined/Pure Punjabi/ContactUs/__Standard Values
+parent: {42CD69BA-6F81-440E-A9F5-D2A4BF115E52}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {42CD69BA-6F81-440E-A9F5-D2A4BF115E52}
+templatekey: ContactUs
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 466
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{FE61F9C5-B20B-4677-B44D-B191F15DA437}"><r id="{B6A0278C-F237-4B05-A495-F2E78EFDD211}" ph="header" uid="{431EE080-9F9B-496F-AF82-D91E18F477BB}" /><r id="{BC67FE8B-B75C-46A9-A349-1CF382E3081C}" ph="content" uid="{3B5808A4-4E75-465C-A50A-47223E9371A7}" /><r id="{198B7066-F9AD-4F59-92B2-D22E2130B655}" ph="footer" uid="{8F426E16-47C5-4E45-85E6-547FCFD09DC1}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 595d40a4-c1c8-4086-9349-040815b5b27b
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 329
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{3B5808A4-4E75-465C-A50A-47223E9371A7}" p:before="r[@uid='{8F426E16-47C5-4E45-85E6-547FCFD09DC1}']" s:id="{BC67FE8B-B75C-46A9-A349-1CF382E3081C}" s:ph="content" /><r uid="{8F426E16-47C5-4E45-85E6-547FCFD09DC1}" p:before="*[1=2]" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150918T092137Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+595d40a4-c1c8-4086-9349-040815b5b27b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150919T125120:635782638808122059Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

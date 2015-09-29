@@ -1,0 +1,11 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IContactUs>
+<div class="container-fluid">
+    <h1>@Editable(x=>x.Title)</h1>
+    <p>@Editable(x => x.Abstract)</p>
+    <div class="row">
+        <div class="col-sm-3 col-md-6" style="background-color:lavender;">
+            <p><h4>@Editable(x=>x.Mobile_No)</h4></p>
+            <p><h4><a href="@Model.Email_Id.Url" target="_blank">@Editable(x=>x.Email_Id)</a></h4></p>
+        </div>
+    </div>
+</div>

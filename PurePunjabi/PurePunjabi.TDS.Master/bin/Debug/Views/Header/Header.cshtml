@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc;
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.ISiteSettings>
+@using PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi;
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="@Model.HomePage_Link.Url">@Editable(x=>x.HomePage_Title)</a>
+    </div>
+
+    <div>
+        <ul class="nav navbar-nav">
+            @foreach (Navigation item in @Model.NavigationLists)
+            {
+                <li><a href="@item.Link.Url">@Editable(item,x=>x.Title)</a></li>
+          }
+        </ul>
+    </div>
+
+</nav>
+
+
+

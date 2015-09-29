@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Pure Punjabi</title>
+    <link href="Assets/Content/bootstrap.min.css" rel="stylesheet">
+    <script src="Assets/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Assets/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container" style="margin-top:20px;">
+            @Html.Sitecore().Placeholder("Header")
+        <div>
+            @Html.Sitecore().Placeholder("content")
+        </div>
+    </div>
+    <div class="container" style="margin-top:20px;">
+        @Html.Sitecore().Placeholder("footer")
+    </div>
+
+</body>
+</html>
+<script>
+    $(function () {
+        $("[data-toggle='popover']").popover();
+    });
+</script>

@@ -1,0 +1,9 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi.IClientImageComponent>
+@using PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi;
+@foreach (Client item in @Model.Our_Clients)
+{
+    <div class="img-thumbnail">
+        @RenderImage(item, x => x.Client_Image, new {@alt = "Cinque Terre" })
+    </div>
+}
+

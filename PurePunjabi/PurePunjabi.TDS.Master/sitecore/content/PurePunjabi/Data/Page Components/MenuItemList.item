@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {A59AFD4B-005C-4F06-BC4F-80B4567D8A33}
+database: master
+path: /sitecore/content/PurePunjabi/Data/Page Components/MenuItemList
+parent: {268FC913-8C7B-4266-A350-FEDB826D722E}
+name: MenuItemList
+master: {00000000-0000-0000-0000-000000000000}
+template: {88F5B7E1-796A-41E2-8D15-4B5666D7E751}
+templatekey: MenuItemListComponent
+
+----version----
+language: en
+version: 1
+revision: 36d1b504-9893-4330-8c01-38fefb2f4c9f
+
+----field----
+field: {0A59F065-A839-41D8-9DA9-278D6DE1CF0F}
+name: Our Menus
+key: our menus
+content-length: 116
+
+{5A432148-942A-429F-9FAF-3C33D36A7B3C}|{4F0215E6-32FA-4093-856A-3DA1A836888B}|{6D7007E7-9B59-4CB2-BB2C-0B1FAA5CD1B0}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150920T102723Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+36d1b504-9893-4330-8c01-38fefb2f4c9f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150920T102747:635783416671065019Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

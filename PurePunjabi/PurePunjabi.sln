@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurePunjabi", "PurePunjabi\PurePunjabi.csproj", "{677FE8DB-705F-49CD-BC42-50D8D17D162C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "PurePunjabi.TDS.Master", "PurePunjabi.TDS.Master\PurePunjabi.TDS.Master.scproj", "{6B30EE2E-625F-43F5-BBB4-35167E138652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677FE8DB-705F-49CD-BC42-50D8D17D162C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677FE8DB-705F-49CD-BC42-50D8D17D162C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677FE8DB-705F-49CD-BC42-50D8D17D162C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677FE8DB-705F-49CD-BC42-50D8D17D162C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B30EE2E-625F-43F5-BBB4-35167E138652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B30EE2E-625F-43F5-BBB4-35167E138652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B30EE2E-625F-43F5-BBB4-35167E138652}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B30EE2E-625F-43F5-BBB4-35167E138652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B30EE2E-625F-43F5-BBB4-35167E138652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B30EE2E-625F-43F5-BBB4-35167E138652}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

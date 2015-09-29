@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {652FC197-C285-445A-B53D-AB12414F19FB}
+database: master
+path: /sitecore/content/PurePunjabi/Data/Page Components/ClientList
+parent: {268FC913-8C7B-4266-A350-FEDB826D722E}
+name: ClientList
+master: {00000000-0000-0000-0000-000000000000}
+template: {776B6643-F965-4D84-97E4-817E18F5E481}
+templatekey: ClientImageComponent
+
+----version----
+language: en
+version: 1
+revision: e7513e51-7fb5-4531-b5b1-2b9b8ecb7553
+
+----field----
+field: {EE617BED-5B04-4A5C-8305-7FDA7F90EA0E}
+name: Our Clients
+key: our clients
+content-length: 233
+
+{36C1AA1B-0A27-414D-92E8-0B2046FC9AA0}|{DEAAC0E4-3050-4BEB-A65E-AC7477A0AF67}|{7D65AFCD-F9A0-4711-A404-9E9A97060F09}|{A93338B4-8C11-4C27-90E5-D63D68132620}|{51394D17-7AB8-4309-9FA3-56301A29ABBE}|{57F9C915-D216-4594-B7D0-E173F76426AF}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150919T100213Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e7513e51-7fb5-4531-b5b1-2b9b8ecb7553
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150919T111050:635782578502370474Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

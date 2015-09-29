@@ -1,0 +1,186 @@
+//Revision: 7268aa7c-39e6-40e6-9ea3-cdd6c3b65cd1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace PurePunjabi.Models.sitecore.templates.User_Defined.Pure_Punjabi
+{
+
+
+ 	/// <summary>
+	/// ISiteSettings Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/SiteSettings</para>	
+	/// <para>ID: 858936e0-963a-437e-a1d7-63128d9df45a</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISiteSettingsConstants.TemplateIdString, Cachable=false)]
+	public partial interface ISiteSettings : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Copyright field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 3a3c99de-0945-4c22-b60a-e106716b1d9f</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingsConstants.CopyrightFieldName)]
+					string Copyright  {get; set;}
+			
+			
+					/// <summary>
+					/// The HomePage Link field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: 38b3ee2d-ec47-44ee-a7ef-8f84caf52e5f</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingsConstants.HomePage_LinkFieldName)]
+					Link HomePage_Link  {get; set;}
+			
+			
+					/// <summary>
+					/// The HomePage Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: d330c985-97c9-4e8c-877b-5b756678f8e9</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingsConstants.HomePage_TitleFieldName)]
+					string HomePage_Title  {get; set;}
+			
+			
+					/// <summary>
+					/// The NavigationLists field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: 77b29878-9986-48f3-9563-52d166dff314</para>
+					/// <para>Custom Data: generic=Navigation</para>
+					/// </summary>
+					[SitecoreField(ISiteSettingsConstants.NavigationListsFieldName)]
+					IEnumerable<Navigation> NavigationLists  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISiteSettingsConstants{
+
+			public const string TemplateIdString = "858936e0-963a-437e-a1d7-63128d9df45a";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SiteSettings";
+
+		
+			
+			public static readonly ID CopyrightFieldId = new ID("3a3c99de-0945-4c22-b60a-e106716b1d9f");
+			public const string CopyrightFieldName = "Copyright";
+			
+		
+			
+			public static readonly ID HomePage_LinkFieldId = new ID("38b3ee2d-ec47-44ee-a7ef-8f84caf52e5f");
+			public const string HomePage_LinkFieldName = "HomePage Link";
+			
+		
+			
+			public static readonly ID HomePage_TitleFieldId = new ID("d330c985-97c9-4e8c-877b-5b756678f8e9");
+			public const string HomePage_TitleFieldName = "HomePage Title";
+			
+		
+			
+			public static readonly ID NavigationListsFieldId = new ID("77b29878-9986-48f3-9563-52d166dff314");
+			public const string NavigationListsFieldName = "NavigationLists";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SiteSettings
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Pure Punjabi/SiteSettings</para>	
+	/// <para>ID: 858936e0-963a-437e-a1d7-63128d9df45a</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISiteSettingsConstants.TemplateIdString, Cachable=false)] 
+	public partial class SiteSettings  : GlassBase, ISiteSettings 
+	{
+	   
+		
+				/// <summary>
+				/// The Copyright field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 3a3c99de-0945-4c22-b60a-e106716b1d9f</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingsConstants.CopyrightFieldName)]
+				public virtual string Copyright  {get; set;}
+					
+		
+				/// <summary>
+				/// The HomePage Link field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: 38b3ee2d-ec47-44ee-a7ef-8f84caf52e5f</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingsConstants.HomePage_LinkFieldName)]
+				public virtual Link HomePage_Link  {get; set;}
+					
+		
+				/// <summary>
+				/// The HomePage Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: d330c985-97c9-4e8c-877b-5b756678f8e9</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingsConstants.HomePage_TitleFieldName)]
+				public virtual string HomePage_Title  {get; set;}
+					
+		
+				/// <summary>
+				/// The NavigationLists field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: 77b29878-9986-48f3-9563-52d166dff314</para>
+				/// <para>Custom Data: generic=Navigation</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingsConstants.NavigationListsFieldName)]
+				public virtual IEnumerable<Navigation> NavigationLists  {get; set;}
+					
+			
+	}
+
+}
+
